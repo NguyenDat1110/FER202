@@ -1,0 +1,72 @@
+.drag-drop-container {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .drag-drop-container h2 {
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .instructions {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .drag-drop-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .drag-item {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    margin-bottom: 8px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: move;
+    transition: all 0.2s ease;
+    user-select: none;
+  }
+  
+  .drag-item:hover {
+    background-color: #f8f9fa;
+    border-color: #007bff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drag-item.dragging {
+    opacity: 0.5;
+    transform: rotate(5deg);
+    background-color: #e3f2fd;
+    border-color: #2196f3;
+  }
+  
+  .drag-handle {
+    margin-right: 10px;
+    color: #999;
+    font-size: 16px;
+    cursor: grab;
+  }
+  
+  .drag-handle:active {
+    cursor: grabbing;
+  }
+  
+  .item-text {
+    flex: 1;
+    color: #333;
+    font-weight: 500;
+  }

@@ -1,0 +1,51 @@
+/* ColorSwitcher.css */
+.color-switcher {
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin: 20px 0;
+    max-width: 400px;
+  }
+  
+  .color-switcher h2 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .controls select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 200px;
+  }
+  
+  .controls select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+  }
+  
+  .color-display {
+    width: 100%;
+    height: 150px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+  }
