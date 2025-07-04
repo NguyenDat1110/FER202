@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "React cơ bản",
+      "content": "Giới thiệu về React"
+    },
+    {
+      "id": "2",
+      "title": "React Router",
+      "content": "Điều hướng trong React"
+    },
+    {
+      "id": "6fe6",
+      "title": "họ và tên",
+      "content": "Nguyễn Tiến Đạt"
+    }
+  ]
+}
